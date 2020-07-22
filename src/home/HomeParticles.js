@@ -71,7 +71,7 @@ class HomeParticles extends Component{
                                 <a href="/" className="txt-logo">
                                     {/* <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/> */}
-                                    MoanaDigital
+                                    Moana<span>Digital</span>
                                 </a>
                             </div>
                         </div>
@@ -178,20 +178,25 @@ class HomeParticles extends Component{
                         <div className="container">
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about-us.jpg" alt="About Images"/>
+                                    <div class="team">
+                                        <a className="thumbnail" href="/about">
+                                            <img className="w-100" src="/assets/images/about-us.jpg" alt="About Images"/>
+                                        </a>
+                                        <a className="content" href="/about">
+                                            <h4 className="title">Read More</h4>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="about-inner inner">
-                                        <div className="section-title">
+                                        <div className="section-title service.service__style--2">
                                             <h2 className="title">About Us</h2>
                                             <p className="description">Talofa Lava/Mālō e Lelei, </p>
                                             <p className="description">Moana Digital Solutions was birthed out of a desire to help small-medium enterprises grow and thrive in the digital age. The founders originally started an eCommerce in early 2017 servicing the Pacific. This provided an additional channel for local suppliers to sell their goods and services, opening their business to overseas customers, creating more revenue & sustainable growth.</p>
                                             <p className="description">Through years of experience, the founders soon realised the challenges faced by Pacific businesses to digitise due to high-cost provided by other agencies and the lack of technical skills in web design & development.</p>
                                             <p className="description">
                                                 <div className="blog-btn text-left mt_sm--10 mt_md--10">
-                                                    <a className="btn-transparent rn-btn-dark" href="#"><span className="text">Read More</span></a>
+                                                    <a className="btn-transparent rn-btn-dark" href="/about"><span className="text">Read More</span></a>
                                                 </div>
                                             </p>
                                         </div>

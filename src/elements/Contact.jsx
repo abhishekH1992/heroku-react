@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
+import { FiHeadphones , FiMail } from "react-icons/fi";
 import ContactTwo from "../elements/contact/ContactTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";

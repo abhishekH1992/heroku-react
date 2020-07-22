@@ -39,7 +39,7 @@ class HomeParticles extends Component{
     }
     stickyHeader () {}
     render(){
-        
+        const PostList = BlogContent.slice(0 , 5);
         window.addEventListener('scroll', function() {
             var value = window.scrollY;
             if (value > 100) {
@@ -71,7 +71,7 @@ class HomeParticles extends Component{
                                 <a href="/" className="txt-logo">
                                     {/* <img className="logo-1" src="/assets/images/logo/logo-light.png" alt="Logo Images"/>
                                     <img className="logo-2" src="/assets/images/logo/logo-all-dark.png" alt="Logo Images"/> */}
-                                    MoanaDigital
+                                    Moana<span>Digital</span>
                                 </a>
                             </div>
                         </div>

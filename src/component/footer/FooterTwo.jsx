@@ -15,7 +15,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/" className="txt-logo">
-                                    MoanaDigital
+                                    Moana<span>Digital</span>
                                 </a>
                             </div>
                         </div>

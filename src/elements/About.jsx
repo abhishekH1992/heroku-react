@@ -29,7 +29,7 @@ class About extends Component{
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">{title}</h2>
-                                            <p className="description">Talofa Lava/Mālō e Lelei, </p>
+                                            <p className="description">1Talofa Lava/Mālō e Lelei, </p>
                                             <p className="description">Moana Digital Solutions was birthed out of a desire to help small-medium enterprises grow and thrive in the digital age. The founders originally started an eCommerce in early 2017 servicing the Pacific. This provided an additional channel for local suppliers to sell their goods and services, opening their business to overseas customers, creating more revenue & sustainable growth.</p>
                                             <p className="description">Through years of experience, the founders soon realised the challenges faced by Pacific businesses to digitise due to high-cost provided by other agencies and the lack of technical skills in web design & development.</p>
                                             <p className="description">Moana Digital Solutions is on a mission to make it easy and provide an online platform to Pacific organisations to showcase their services and products attracting both local and international customers.</p>

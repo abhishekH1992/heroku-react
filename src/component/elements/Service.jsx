@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp } from "react-icons/fi";
+import { FiChevronUp } from "react-icons/fi";
 import ScrollToTop from 'react-scroll-up';
 import ServiceList from "../elements/service/ServiceList";
 import Header from "../component/header/Header";
