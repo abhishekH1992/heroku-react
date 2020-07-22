@@ -80,7 +80,7 @@ class HomeParticles extends Component{
                                 <Scrollspy className="mainmenu" offset={-200}>
                                     <li className="is-current"><a href="/" >Home</a></li>
                                     <li><a href="/about">About</a></li>
-                                    <li><a href="/services">Services</a></li>
+                                    <li><a href="/service">Services</a></li>
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
